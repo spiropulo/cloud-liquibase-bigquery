@@ -1,0 +1,9 @@
+{
+  "dataset": "test_liquibase",
+  "files": [
+    "bigquery/db/files/initialize.sql",
+    "bigquery/db/files/second_table.sql",
+    "bigquery/db/files/third_table.sql",
+    "bigquery/db/files/forth_table.sql"
+  ]
+}

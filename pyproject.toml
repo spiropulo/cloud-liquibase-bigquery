@@ -28,6 +28,9 @@ python = ">=3.7"
 google-cloud-logging = "*"
 tox = "*"
 sphinx = "*"
+behave = "*"
+google-api-python-client = "*"
+google-cloud-bigquery = "*"
 
 [tool.poetry.dev-dependencies]
 pre-commit = "*"

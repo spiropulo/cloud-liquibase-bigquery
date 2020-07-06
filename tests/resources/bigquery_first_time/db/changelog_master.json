@@ -1,0 +1,6 @@
+{
+  "dataset": "test_dataset",
+  "files": [
+    "tests/resources/bigquery_first_time/db/files/initialize.sql"
+  ]
+}
