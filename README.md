@@ -1,11 +1,10 @@
-# python-library-template
+# Python ETL Liquid Bigquery
 
-A github repo template using python3 with:
- - BDD testing strategies (using Gherkin and Behave through Tox)
- - Python package control through **poetry**
- - **Pre-commit** for detecting secrets, typing, linting (Detect-Secrets,Mypy, Black)
- - ...
-
+This module provides a solution for applications that own **Bigquery** structures.
+In stead of delegating controls to some third party systems like Terraform
+or Cloud Formation PELB (Python ETL Liquid Bigquery) puts the jurisdiction in the
+developers hands. PELB will target the current project defined by 
+**GOOGLE_APPLICATION_CREDENTIALS** (DEV, STAGE, PROD, <BLAH>). 
 
 ## Index
 

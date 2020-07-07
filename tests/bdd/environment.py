@@ -13,8 +13,9 @@ def before_all(context):
 
 
 def before_scenario(context: object, scenario: object) -> object:
-    RowIteratorMock.values = list()
+    ClientMock.available_responses = list()
     ClientMock.insert_changelog_count = 0
     ClientMock.executed_queries = list()
+    RowIteratorMock.errors = None
 
 

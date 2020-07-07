@@ -1,0 +1,1 @@
+UPDATE `table_a` SET one='1', two='2', three='3';

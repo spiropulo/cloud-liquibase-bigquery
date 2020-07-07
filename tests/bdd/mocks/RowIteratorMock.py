@@ -1,13 +1,21 @@
 from typing import List
-from unittest.mock import Mock
 
 
-class RowIteratorMock(Mock):
-    values: List[str] = list()
+class RowIteratorMock:
+    errors = None
+
+    def __init__(self, values):
+        self.values = values
 
     def __iter__(self):
-        return iter(RowIteratorMock.values)
+        return iter(self.values)
 
     @property
     def total_rows(self):
-        return len(RowIteratorMock.values)
+        return len(self.values)
+
+    def result(self):
+        return RowIteratorMock(self.values)
+
+    def errors(self):
+        return RowIteratorMock.errors

@@ -34,8 +34,7 @@ class LiquibaseStep(unittest.TestCase):
             if r["exists"] == "True":
                 values.append([r["file"], "somedate", Utils.build_hash(file_name=r["file"])])
 
-        RowIteratorMock.values = values
-        ClientMock.query_result = RowIteratorMock()
+        ClientMock.available_responses = values
 
     @then("we confirm {count} files was inserted in the changelog table")
     def step_impl(context, count):

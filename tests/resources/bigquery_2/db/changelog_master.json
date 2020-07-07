@@ -1,0 +1,8 @@
+{
+  "dataset": "test_dataset",
+  "files": [
+    "tests/resources/bigquery_2/db/files/initialize.sql",
+    "tests/resources/bigquery_2/db/files/insert.sql",
+    "tests/resources/bigquery_2/db/files/update.sql"
+  ]
+}
