@@ -4,7 +4,7 @@ This module provides a solution for applications that own **Bigquery** structure
 In stead of delegating controls to some third party systems like Terraform
 or Cloud Formation PELB (Python ETL Liquid Bigquery) puts the jurisdiction in the
 developers hands. PELB will target the current project defined by 
-**GOOGLE_APPLICATION_CREDENTIALS** (DEV, STAGE, PROD, <BLAH>). 
+**GOOGLE_APPLICATION_CREDENTIALS** (DEV, STAGE, PROD, BLAH). 
 
 ## Index
 
